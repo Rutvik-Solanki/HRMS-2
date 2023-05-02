@@ -3221,11 +3221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BhargavTank\\source\\API\\HRM\\HRM.Business.API\\HRMPortal.Employee\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
+      "projectUniqueName": "C:\\Users\\BhargavTank\\Source\\Repos\\bhargavtank2001\\HRMS\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
       "projectName": "HRMPortal.Employee",
-      "projectPath": "C:\\Users\\BhargavTank\\source\\API\\HRM\\HRM.Business.API\\HRMPortal.Employee\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
+      "projectPath": "C:\\Users\\BhargavTank\\Source\\Repos\\bhargavtank2001\\HRMS\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
       "packagesPath": "C:\\Users\\BhargavTank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BhargavTank\\source\\API\\HRM\\HRM.Business.API\\HRMPortal.Employee\\HRMPortal.Employee\\obj\\",
+      "outputPath": "C:\\Users\\BhargavTank\\Source\\Repos\\bhargavtank2001\\HRMS\\HRMPortal.Employee\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

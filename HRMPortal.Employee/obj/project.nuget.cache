@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L66yRC4k+gKzt6fVy5rkK7LMiJEgACCY/iLlG/N50OIP30lnrn7gK0GFWnLuTHtVgAmHOyYMHl/G52BkAtmMTg==",
+  "dgSpecHash": "mNtIiD9wjCX7efu09FrCnHh0thG3co8pm0YIu8Ek21XYcjnSKdTezG+Eo/BNjNSyOt7+g1SlU9GlHL3cTZijOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BhargavTank\\source\\API\\HRM\\HRM.Business.API\\HRMPortal.Employee\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
+  "projectFilePath": "C:\\Users\\BhargavTank\\Source\\Repos\\bhargavtank2001\\HRMS\\HRMPortal.Employee\\HRMPortal.Employee.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BhargavTank\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\BhargavTank\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.0.0\\automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512",
