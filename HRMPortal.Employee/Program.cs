@@ -2,6 +2,7 @@ using AutoMapper;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using HRMPortal.Employee.DBContext;
+using HRMPortal.Employee.Engine;
 using HRMPortal.Employee.Engine.@class;
 using HRMPortal.Employee.Engine.Class;
 using HRMPortal.Employee.Engine.Interface;
@@ -11,8 +12,10 @@ using HRMPortal.Employee.Model.AddressModel;
 using HRMPortal.Employee.Model.PreviousExprience;
 using HRMPortal.Employee.Model.SalaryModel;
 using HRMPortal.Employee.Models;
+using HRMPortal.Employee.Processor;
 using HRMPortal.Employee.Processor.Class;
 using HRMPortal.Employee.Processor.Interface;
+using HRMPortal.Employee.Repository;
 using HRMPortal.Employee.Repository.Class;
 using HRMPortal.Employee.Repository.Interface;
 using HRMPortal.Employee.Validation;
@@ -56,6 +59,15 @@ builder.Services.AddScoped<IPreviousExprienceRepository, PreviousExprienceReposi
 builder.Services.AddScoped<ILeaveBalanceRepository, LeaveBalanceRepository>();
 builder.Services.AddScoped<ILeaveBalanceEngine, LeaveBalanceEngine>();
 builder.Services.AddScoped<ILeaveBalancePrecessor, LeaveBalanceProcessor>();
+
+builder.Services.AddScoped<IBankProcessor, BankProcessor>();
+builder.Services.AddScoped<IBankEngine, BankEngine>();
+builder.Services.AddScoped<IBankRepository, BankRepository>();
+
+builder.Services.AddScoped<IEducationProcessor, EducationProcessor>();
+builder.Services.AddScoped<IEducationEngine, EducationEngine>();
+builder.Services.AddScoped<IEducationRepository, EducationRepository>();
+
 
 
 //for fluent validatio 
